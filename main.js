@@ -2,11 +2,51 @@
 // │ Your code here! │
 // └─────────────────┘
 
+//-------------- Question 1 --------------//
+
+function createUser(firstName, lastName) {
+    let user = {
+        firstName: firstName,
+        lastName: lastName,
+    }
+    return user;
+
+}
+
+console.log(createUser('John', 'Doe'));
+console.log(createUser('Mesi', 'Kaleziq'));
 
 
 
+//------------------- Question 2 -------------------//
+
+function setAge(userObject, age) {
+    // add new age field to the user object
+    userObject.age = age;
+    return userObject;
+}
+console.log(setAge({ firstName: 'Tim', lastName: 'Horton' }, 50));
 
 
+//------------------- Question 3 -------------------//
+
+
+//------------------- Question 4 -------------------//
+
+
+//------------------- Question 5 -------------------//
+
+
+//------------------- Question 6 -------------------//
+
+
+//------------------- Question 7 -------------------//
+
+
+//------------------- Question 8 -------------------//
+
+
+//------------------- Question 9 -------------------//
 
 
 
